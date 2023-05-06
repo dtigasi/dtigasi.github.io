@@ -9,6 +9,7 @@ body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   min-height: 100vh;
   text-align: justify;
+  position: relative;
 }
 .container {
   width: 100%;
@@ -233,8 +234,9 @@ footer {
   align-items: center;
   flex-direction: row-reverse;
   padding-right: 5%;
-  position: relative;
-  bottom: 0px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 footer > p {
   font-family: "Sen", sans-serif;
